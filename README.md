@@ -36,7 +36,7 @@ Tout d'abord, nous avons réalisé un code Arduino permettant de vérifier notre
 
 ## 2. Arduino <a id="DeuxiemeSection"></a>
 ### 2.1. Librairies utilisées <a id="DeuxiemeSection1"></a>
-Nous avons utilisé différentes librairies dans notre code Arduino.
+Nous avons utilisé différentes librairies dans notre code Arduino. La librarie ["Adafruit_SSD1306"](/Libraries/Adafruit_SSD1306) permet de contrôller l'écran OLED. La librairie [""Adafruit_BusIO"](/Libraries/Adafruit_busIO) permet de gérer la connexion en I2C et SPI.
 
 ### 2.2. Code Arduino <a id="DeuxiemeSection2"></a>
 
