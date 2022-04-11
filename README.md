@@ -39,6 +39,13 @@ Tout d'abord, nous avons réalisé un code Arduino permettant de vérifier notre
 Nous avons utilisé différentes librairies dans notre code Arduino. La librarie ["Adafruit_SSD1306"](/Libraries/Adafruit_SSD1306) permet de contrôller l'écran OLED. La librairie [""Adafruit_BusIO"](/Libraries/Adafruit_busIO) permet de gérer la connexion en I2C et SPI.
 
 ### 2.2. Code Arduino <a id="DeuxiemeSection2"></a>
+Le code Arduino, développé sous Arduino IDE contient plusieurs fonctionnalités. Il permet d'assurer la communication entre la carte Arduino, qui récupère la valeur de tension renvoyée par le capteur, et les différents éléments ajoutés sur le shield soit : l'écran OLED, le module bluetooth et l'encodeur rotatoire. Différents menus sont accessibles sur l'écran OLED :
+* Le premier menu permet un simple affichage de la résistance
+* Le deuxième menu permet de selectionner le calibre de la résistance affichée sur le menu 1. Cette dernière peut ainsi être affichée en Ohm, kOhm ou MOhm.
+* Le troisème menu est un chronomètre permettant de savoir le temps d'éxecution du programme. C'est à dire le temps depuis le programme à été démarré.
+* Le quatrième menu permet l'affichage d'une image.
+
+Les codes sont contenus dans les dossiers :
 
 ## 3. Application Android <a id="TroisiemeSection"></a>
 
