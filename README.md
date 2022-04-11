@@ -51,6 +51,10 @@ Les codes sont contenus dans les dossiers :
 
 ## 4. KICAD <a id="QuatriemeSection"></a>
 ### 4.1. Symboles et empreintes des composants <a id="QuatriemeSection1"></a>
+* Ecran OLED
+
+<img src="/Images/OLED_schematic.png" width="300"> <img src="/Images/OLED_footprint.png" width="300">
+
 
 ### 4.2. Schématique <a id="QuatriemeSection2"></a>
 
