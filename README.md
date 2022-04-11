@@ -51,9 +51,17 @@ Les codes sont contenus dans les dossiers :
 
 ## 4. KICAD <a id="QuatriemeSection"></a>
 ### 4.1. Symboles et empreintes des composants <a id="QuatriemeSection1"></a>
-* Ecran OLED
+* Amplificateur LTC1050
+<img src="/Images/LTC1050_schematic.png" height="200"> <img src="/Images/LTC1050_footprint.png" height="200">
 
+* Ecran OLED
 <img src="/Images/OLED_schematic.png" height="200"> <img src="/Images/OLED_footprint.png" height="200">
+
+* Encodeur rotatoire
+<img src="/Images/KY_040_schematic.png" height="200"> <img src="/Images/KY_040_footprint.png" height="200">
+
+* Module bluetooth
+<img src="/Images/Bluetooth_HC05_schematic.png" height="200"> <img src="/Images/Bluetooth_HC05_footprint.png" height="200">
 
 
 ### 4.2. Schématique <a id="QuatriemeSection2"></a>
