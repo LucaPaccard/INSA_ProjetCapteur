@@ -1,4 +1,4 @@
-# 2021-2022_Paccard_Lemaire
+# 2021-2022_Paccard_Lemaire_Projet_Capteur
 Ce projet s'inscrit dans l'UF **"Du capteur au banc de test"** en 4ème année au département de Génie Physique de l'INSA Toulouse.
 ***
 L'objectif de ce dernier est d'élaborer un **capteur de déformation** low-tech à base de graphite. L'application d'une contrainte mécanique sur un capteur en papier sur lequel un dépôt de crayon à papier à été fait, modifie la distance entre les particules de graphite. La conductivité électrique de la couche de graphite est elle aussi modifiée et celà induit une variation de la résistance. C'est cette donnée qui va nous intéresser.
@@ -22,4 +22,12 @@ L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design*
   * [6.3 Analyse des résultats et pistes d'améliorations](#SixiemeSection3)
 * [7. Datasheet](SeptiemeSection)
 
-## Description du projet et détail des livrables <a id="PremiereSection"></a>
+## Détail des livrables et description du projet <a id="PremiereSection"></a>
+Voici l'ensemble des livrables du projet :
+- Un shield PCB se connectant à une carte Arduino UNO contenant un amplificateur transimpédance, un module bluetooth, un écran OLED et un encodeur rotatoire
+- Un code Arduino permettant de mesurer la déformation du capteur et de piloter le module bluetooth, l'écran OLED et l'encodeur rotatoire
+- Une application Android APK
+- Un protocole de test 
+- La datasheet du capteur de déformation
+
+Tout d'abord, nous avons réalisé un code Arduino permettant de vérifier notre montage contenant un amplificateur transimpédance, un écran OLED, un module bluetooth et un encodeur rotatoire. Une fois le montage fonctionnel, nous avons réalisé le design de notre shield sur le logiciel *KICAD*. Nous l'avons ensuite fabriqué et assemblé (lithographie, perçage, soudage des composants, etc.). En parallèle de cela, nous avons utilisé le logiciel *MIT App Inventor* afin de développer une application Android APK, capable de communiquer et recevoir les informations envoyées par le module bluetooth telles que les valeurs de résistance du capteur mesurées. Nous avons par la suite mis en place un banc de test pour pour caractériser les différents types de capteurs en fonction de leur déformation et de la mine de crayon utilisée (HB, B, 9B, etc.). Enfin, nous avons établi une datasheet à l'aide des résulats obtenus par le banc de test.
