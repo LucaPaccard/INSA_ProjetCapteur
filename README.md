@@ -69,7 +69,7 @@ Les codes sont contenus dans les dossiers :
 
 
 ### 4.2. Schématique <a id="QuatriemeSection2"></a>
-![Glob](/Images/Schematic.pdf)
+<img src="/Images/Schematique_globale">
 
 Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à droite sont représentées les broches de la carte Arduino. En haut au milieu est représenté l'amplificateur transimpédance et en bas du schématique se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
 
