@@ -80,7 +80,7 @@ Une fois les empreintes créées, nous avons réalisé le schéma de notre shiel
 <img src="/Images/PCB_3D.png">
 
 ## 5. Fabrication du shield <a id="CinquiemeSection"></a>
-<img src="/Images/PCB_front.png" height="200"><img src="/Images/PCB_back.png" height="200">
+<img src="/Images/PCB_front.png" height="300"> <img src="/Images/PCB_back.png" height="300">
 
 ### 5.1. Réalisation du PCB <a id="CinquiemeSection1"></a> 
 Le PCB a été réalisé au sein des départements de Génie Physique (GP) et Génie Électrique et Informatique (GEI) de l'INSA Toulouse avec l'aide de Catherine Crouzet. Notre PCB à été fabriqué à partir d'une plaquette d'epoxy recouverte d'une fine couche de cuivre (environ 60μm). 
