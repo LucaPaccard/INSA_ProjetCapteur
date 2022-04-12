@@ -113,8 +113,6 @@ Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice*
 ## 8. Datasheet <a id="HuigtiemeSection"></a> 
 
 ***
-@authors :
-
-Luca Paccard : luca.paccard@gmail.com
-
-Arthur Lemaire : 
+**@authors** :
+* Luca Paccard : luca.paccard@gmail.com
+* Arthur Lemaire : 
