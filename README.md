@@ -80,6 +80,8 @@ Une fois les empreintes créées, nous avons réalisé le schéma de notre shiel
 <img src="/Images/PCB_3D.png">
 
 ## 5. Fabrication du shield <a id="CinquiemeSection"></a>
+<img src="/Images/PCB_front.png" height="200"><img src="/Images/PCB_back.png" height="200">
+
 ### 5.1. Réalisation du PCB <a id="CinquiemeSection1"></a> 
 Le PCB a été réalisé au sein des départements de Génie Physique (GP) et Génie Électrique et Informatique (GEI) de l'INSA Toulouse avec l'aide de Catherine Crouzet. Notre PCB à été fabriqué à partir d'une plaquette d'epoxy recouverte d'une fine couche de cuivre (environ 60μm). 
 Nous avons imprimé sur du papier calque la modélisation de notre PCB effectuée sur le logiciel *KICAD* pour ensuite insoler aux UV notre plaquette avec la silouhette par-dessus pendant quelques minutes. À l'aide d'un révelateur, nous avons retiré la partie de la résine non insolée.
@@ -91,6 +93,8 @@ Nous avons ensuite percé notre PCB aux endroits où les différents composants 
 * ⌀ 0.8mm : AOP LTC1050, résistances et capacités
 * ⌀ 1.0mm : Broches de connexion de la carte Arduino Uno et headers des différents modules (OLED, bluetooth, encodeur rotatoire)
 * ⌀ 1.2mm : Broches de connexion du capteur de déformation
+
+Notre PCB ayant été imprimé en face avant, certains composants ont été placé en face avant et d'autres en face arrière pour faciliter la soudure et la connexion à la carte Arduino Uno.
 
 ## 6. Banc de test <a id="SixiemeSection"></a> 
 ### 6.1. Banc de test <a id="SixiemeSection1"></a> 
