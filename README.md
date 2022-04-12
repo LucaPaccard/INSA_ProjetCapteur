@@ -74,13 +74,23 @@ Les codes sont contenus dans les dossiers :
 Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à droite sont représentées les broches de la carte Arduino. En haut au milieu est représenté l'amplificateur transimpédance et en bas du schématique se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
 
 ### 4.3. Placement des composants <a id="QuatriemeSection3"></a>
+<img src="/Images/PCB_2D.png">
 
 ### 4.4. Visualisation 3D <a id="QuatriemeSection4"></a>
+<img src="/Images/PCB_3D.png">
 
 ## 5. Fabrication du shield <a id="CinquiemeSection"></a>
 ### 5.1. Réalisation du PCB <a id="CinquiemeSection1"></a> 
+Le PCB a été réalisé au sein des départements de Génie Physique (GP) et Génie Électrique et Informatique (GEI) de l'INSA Toulouse avec l'aide de Catherine Crouzet. Notre PCB à été fabriqué à partir d'une plaquette d'epoxy recouverte d'une fine couche de cuivre (environ 60μm). 
+Nous avons imprimé sur du papier calque la modélisation de notre PCB effectuée sur le logiciel *KICAD* pour ensuite insoler aux UV notre plaquette avec la silouhette par-dessus pendant quelques minutes. À l'aide d'un révelateur, nous avons retiré la partie de la résine non insolée.
+La plaquette d'expoxy est ensuite placée dans un bain de perchlorure de fer pour la gravure, opération durant 7 minutes. Le cuivre non protégé par la résine est ainsi retiré de la plaquette ce qui nous permet d'obtenir le PCB avec les pistes souhaitées.
+Enfin, de l'acétone est appliquée sur la plaquette pour éliminer les dernières traces de résine.
 
 ### 5.2. Perçage et soudure <a id="CinquiemeSection2"></a> 
+Nous avons ensuite percé notre PCB aux endroits où les différents composants seront insérés à l'aide d'une perceuse électrique. Le diamètre des trous dépend des différents composants à placer :
+* ⌀0.8mm : AOP LTC1050, résistances et capacités
+* ⌀1.0mm : Broches de connexion de la carte Arduino Uno et headers des différents modules (OLED, bluetooth, encodeur rotatoire)
+* ⌀1.2mm : Broches de connexion du capteur de déformation
 
 ## 6. Banc de test <a id="SixiemeSection"></a> 
 ### 6.1. Banc de test <a id="SixiemeSection1"></a> 
