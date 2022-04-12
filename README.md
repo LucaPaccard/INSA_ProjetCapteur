@@ -88,9 +88,9 @@ Enfin, de l'acétone est appliquée sur la plaquette pour éliminer les dernièr
 
 ### 5.2. Perçage et soudure <a id="CinquiemeSection2"></a> 
 Nous avons ensuite percé notre PCB aux endroits où les différents composants seront insérés à l'aide d'une perceuse électrique. Le diamètre des trous dépend des différents composants à placer :
-* ⌀0.8mm : AOP LTC1050, résistances et capacités
-* ⌀1.0mm : Broches de connexion de la carte Arduino Uno et headers des différents modules (OLED, bluetooth, encodeur rotatoire)
-* ⌀1.2mm : Broches de connexion du capteur de déformation
+* ⌀ 0.8mm : AOP LTC1050, résistances et capacités
+* ⌀ 1.0mm : Broches de connexion de la carte Arduino Uno et headers des différents modules (OLED, bluetooth, encodeur rotatoire)
+* ⌀ 1.2mm : Broches de connexion du capteur de déformation
 
 ## 6. Banc de test <a id="SixiemeSection"></a> 
 ### 6.1. Banc de test <a id="SixiemeSection1"></a> 
