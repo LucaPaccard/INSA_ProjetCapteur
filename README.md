@@ -18,11 +18,12 @@ L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design*
 * [5. Fabrication du shield](#CinquiemeSection)
   * [5.1. Réalisation du PCB](#CinquiemeSection1)
   * [5.2. Perçage et soudure](#CinquiemeSection2)
-* [6. Banc de test](#SixiemeSection)
-  * [6.1. Banc de test](#SixiemeSection1)
-  * [6.2. Résultats obtenus](#SixiemeSection2)
-  * [6.3. Analyse des résultats et pistes d'améliorations](#SixiemeSection3)
-* [7. Datasheet](SeptiemeSection)
+* [6. Simulation](#SixiemeSection)
+* [7. Banc de test](#SeptiemeSection)
+  * [7.1. Banc de test](#SeptiemeSection1)
+  * [7.2. Résultats obtenus](#SeptiemeSection2)
+  * [7.3. Analyse des résultats et pistes d'améliorations](#SeptiemeSection3)
+* [8. Datasheet](HuigtiemeSection)
 
 ## 1. Détail des livrables et description du projet <a id="PremiereSection"></a>
 Voici l'ensemble des livrables du projet :
@@ -96,11 +97,14 @@ Nous avons ensuite percé notre PCB aux endroits où les différents composants 
 
 Notre PCB ayant été imprimé en face avant, certains composants ont été placé en face avant et d'autres en face arrière pour faciliter la soudure et la connexion à la carte Arduino Uno.
 
-## 6. Banc de test <a id="SixiemeSection"></a> 
-### 6.1. Banc de test <a id="SixiemeSection1"></a> 
+## 6. Simulation <a id="SixiemeSection"></a> 
+Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice* afin de savoir le comportement que notre circuit aura une fois branché à de réelles valeurs de tension.
 
-### 6.2. Résultats obtenus <a id="SixiemeSection2"></a> 
+## 7. Banc de test <a id="SeptiemeSection"></a> 
+### 7.1. Banc de test <a id="SeptiemeSection1"></a> 
 
-### 6.3. Analyse des résultats et pistes d'améliorations <a id="SixiemeSection3"></a> 
+### 7.2. Résultats obtenus <a id="SeptiemeSection2"></a> 
 
-## 7. Datasheet <a id="SeptiemeSection"></a> 
+### 7.3. Analyse des résultats et pistes d'améliorations <a id="SeptiemeSection3"></a> 
+
+## 8. Datasheet <a id="HuigtiemeSection"></a> 
