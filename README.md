@@ -59,16 +59,19 @@ Les codes sont contenus dans les dossiers :
 
 <img src="/Images/OLED_schematic.png" height="200"> <img src="/Images/OLED_footprint.png" height="200">
 
-* Encodeur rotatoire
+* Encodeur rotatoire KY_040
 
 <img src="/Images/KY_040_schematic.png" height="200"> <img src="/Images/KY_040_footprint.png" height="200">
 
-* Module bluetooth
+* Module bluetooth HC05
 
 <img src="/Images/Bluetooth-HC05_schematic.png" height="200"> <img src="/Images/Bluetooth_HC05_footprint.png" height="200">
 
 
 ### 4.2. Schématique <a id="QuatriemeSection2"></a>
+![Glob](/Images/Schematic.pdf)
+
+Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à droite sont représentées les broches de la carte Arduino. En haut au milieu est représenté l'amplificateur transimpédance et en bas du schématique se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
 
 ### 4.3. Placement des composants <a id="QuatriemeSection3"></a>
 
