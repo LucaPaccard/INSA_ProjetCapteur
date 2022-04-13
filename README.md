@@ -26,8 +26,8 @@ L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design*
   * [7.1. Banc de test](#SeptiemeSection1)
   * [7.2. Résultats obtenus](#SeptiemeSection2)
   * [7.3. Analyse des résultats et pistes d'améliorations](#SeptiemeSection3)
-* [8. Datasheet](HuigtiemeSection)
-* [Contacts](NeuviemeSection)
+* [8. Datasheet](#HuigtiemeSection)
+* [Contacts](#NeuviemeSection)
 
 ## 1. Détail des livrables et description du projet <a id="PremiereSection"></a>
 Voici l'ensemble des livrables du projet :
