@@ -60,7 +60,7 @@ Nous avons utilisé différentes librairies dans notre code Arduino. La librarie
 Le code Arduino, développé sous Arduino IDE contient plusieurs fonctionnalités. Il permet d'assurer la communication entre la carte Arduino, qui récupère la valeur de tension renvoyée par le capteur, et les différents éléments ajoutés sur le shield soit : l'écran OLED, le module bluetooth et l'encodeur rotatoire. Différents menus sont accessibles sur l'écran OLED :
 * Le premier menu permet un simple affichage de la résistance
 * Le deuxième menu permet de selectionner le calibre de la résistance affichée sur le menu 1. Cette dernière peut ainsi être affichée en Ω, kΩ ou MΩ.
-* Le troisème menu est un chronomètre permettant de savoir le temps d'éxecution du programme. C'est à dire le temps depuis le programme à été démarré.
+* Le troisème menu est un chronomètre permettant de savoir le temps d'execution du programme. C'est à dire le temps depuis le programme à été démarré.
 * Le quatrième menu permet l'affichage d'une image.
 
 Les codes sont contenus dans les dossiers :
