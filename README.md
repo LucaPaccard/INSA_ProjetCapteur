@@ -27,6 +27,7 @@ L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design*
   * [7.2. Résultats obtenus](#SeptiemeSection2)
   * [7.3. Analyse des résultats et pistes d'améliorations](#SeptiemeSection3)
 * [8. Datasheet](HuigtiemeSection)
+* [Contacts](NeuviemeSection)
 
 ## 1. Détail des livrables et description du projet <a id="PremiereSection"></a>
 Voici l'ensemble des livrables du projet :
@@ -112,7 +113,7 @@ Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice*
 
 ## 8. Datasheet <a id="HuigtiemeSection"></a> 
 
-***
-**@authors** :
-* Luca Paccard : luca.paccard@gmail.com
-* Arthur Lemaire : 
+## Contacts <a id="NeuviemeSection"></a> 
+Pour toutes questions relatives aux différentes parties du projet, que ce soit du KiCad au code Arduino, n'hésitez pas à nous contacter !
+* Luca Paccard : paccard@insa-toulouse.fr
+* Arthur Lemaire : a_lemair@insa-toulouse.fr
