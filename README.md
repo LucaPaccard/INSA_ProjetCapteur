@@ -10,25 +10,25 @@ L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design*
 ## Sommaire
 * [1. Description du projet et détail des livrables](#PremiereSection)
 * [2. Matériel nécessaire](#DeuxiemeSection)
-* [2. Arduino](#DeuxiemeSection)
-  * [2.1. Librairies utilisées](#DeuxiemeSection1)
-  * [2.2. Code Arduino](#DeuxiemeSection2)
-* [3. Application Android](#TroisiemeSection)
-* [4. KICAD](#QuatriemeSection)
-  * [4.1. Symboles et empreintes des composants](#QuatriemeSection1)
-  * [4.2. Schématique](#QuatriemeSection2)
-  * [4.3. Placement des composants](#QuatriemeSection3)
-  * [4.4. Visualisation 3D](#QuatriemeSection4)
-* [5. Fabrication du shield](#CinquiemeSection)
-  * [5.1. Réalisation du PCB](#CinquiemeSection1)
-  * [5.2. Perçage et soudure](#CinquiemeSection2)
-* [6. Simulation](#SixiemeSection)
-* [7. Banc de test](#SeptiemeSection)
-  * [7.1. Banc de test](#SeptiemeSection1)
-  * [7.2. Résultats obtenus](#SeptiemeSection2)
-  * [7.3. Analyse des résultats et pistes d'améliorations](#SeptiemeSection3)
-* [8. Datasheet](#HuigtiemeSection)
-* [Contacts](#NeuviemeSection)
+* [3. Arduino](#TroisiemeSection)
+  * [3.1. Librairies utilisées](#TroisiemeSection1)
+  * [3.2. Code Arduino](#TroisiemeSection1)
+* [4. Application Android](#QuatriemeSection)
+* [5. KICAD](#CinquiemeSection)
+  * [5.1. Symboles et empreintes des composants](#CinquiemeSection1)
+  * [5.2. Schématique](#CinquiemeSection2)
+  * [5.3. Placement des composants](#CinquiemeSection3)
+  * [5.4. Visualisation 3D](#CinquiemeSection4)
+* [6. Fabrication du shield](#SixiemeSection)
+  * [6.1. Réalisation du PCB](#SixiemeSection1)
+  * [6.2. Perçage et soudure](#SixiemeSection2)
+* [7. Simulation](#SeptiemeSection)
+* [8. Banc de test](#HuigtiemeSection)
+  * [8.1. Banc de test](#HuigtiemeSection1)
+  * [8.2. Résultats obtenus](#HuigtiemeSection2)
+  * [8.3. Analyse des résultats et pistes d'améliorations](#HuigtiemeSection3)
+* [9. Datasheet](#NeuviemeSection)
+* [Contacts](#DixiemeSection)
 
 ## 1. Détail des livrables et description du projet <a id="PremiereSection"></a>
 Voici l'ensemble des livrables du projet :
@@ -52,11 +52,11 @@ Pour réaliser le capteur ainsi que le PCB associé, voici la liste des composan
 * x1 encodeur rotatoire KY_040
 * x1 écran OLED I2C 0.91
 
-## 2. Arduino <a id="DeuxiemeSection"></a>
-### 2.1. Librairies utilisées <a id="DeuxiemeSection1"></a>
+## 3. Arduino <a id="TroisiemeSection"></a>
+### 3.1. Librairies utilisées <a id="TroisiemeSection1"></a>
 Nous avons utilisé différentes librairies dans notre code Arduino. La librarie ["Adafruit_SSD1306"](/Libraries/Adafruit_SSD1306) permet de contrôller l'écran OLED. La librairie [""Adafruit_BusIO"](/Libraries/Adafruit_busIO) permet de gérer la connexion en I2C et SPI.
 
-### 2.2. Code Arduino <a id="DeuxiemeSection2"></a>
+### 3.2. Code Arduino <a id="TroisiemeSection2"></a>
 Le code Arduino, développé sous Arduino IDE contient plusieurs fonctionnalités. Il permet d'assurer la communication entre la carte Arduino, qui récupère la valeur de tension renvoyée par le capteur, et les différents éléments ajoutés sur le shield soit : l'écran OLED, le module bluetooth et l'encodeur rotatoire. Différents menus sont accessibles sur l'écran OLED :
 * Le premier menu permet un simple affichage de la résistance
 * Le deuxième menu permet de selectionner le calibre de la résistance affichée sur le menu 1. Cette dernière peut ainsi être affichée en Ohm, kOhm ou MOhm.
@@ -65,10 +65,10 @@ Le code Arduino, développé sous Arduino IDE contient plusieurs fonctionnalité
 
 Les codes sont contenus dans les dossiers :
 
-## 3. Application Android <a id="TroisiemeSection"></a>
+## 4. Application Android <a id="QuatriemeSection"></a>
 
-## 4. KICAD <a id="QuatriemeSection"></a>
-### 4.1. Symboles et empreintes des composants <a id="QuatriemeSection1"></a>
+## 5. KICAD <a id="CinquiemeSection"></a>
+### 5.1. Symboles et empreintes des composants <a id="CinquiemeSection1"></a>
 * Amplificateur LTC1050
 
 <img src="/Images/LTC1050_schematic.png" height="200"> <img src="/Images/LTC1050_footprint.png" height="200">
@@ -86,27 +86,27 @@ Les codes sont contenus dans les dossiers :
 <img src="/Images/Bluetooth-HC05_schematic.png" height="200"> <img src="/Images/Bluetooth_HC05_footprint.png" height="200">
 
 
-### 4.2. Schématique <a id="QuatriemeSection2"></a>
+### 5.2. Schématique <a id="CinquiemeSection2"></a>
 <img src="/Images/Schematic.png">
 
 Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à droite sont représentées les broches de la carte Arduino. En haut au milieu est représenté l'amplificateur transimpédance et en bas du schématique se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
 
-### 4.3. Placement des composants <a id="QuatriemeSection3"></a>
+### 5.3. Placement des composants <a id="CinquiemeSection3"></a>
 <img src="/Images/PCB_2D.png">
 
-### 4.4. Visualisation 3D <a id="QuatriemeSection4"></a>
+### 5.4. Visualisation 3D <a id="CinquiemeSection4"></a>
 <img src="/Images/PCB_3D.png">
 
-## 5. Fabrication du shield <a id="CinquiemeSection"></a>
+## 6. Fabrication du shield <a id="SixiemeSection"></a>
 <img src="/Images/PCB_front.png" height="300"> <img src="/Images/PCB_back.png" height="300">
 
-### 5.1. Réalisation du PCB <a id="CinquiemeSection1"></a> 
+### 6.1. Réalisation du PCB <a id="SixiemeSection1"></a> 
 Le PCB a été réalisé au sein des départements de Génie Physique (GP) et Génie Électrique et Informatique (GEI) de l'INSA Toulouse avec l'aide de Catherine Crouzet. Notre PCB à été fabriqué à partir d'une plaquette d'epoxy recouverte d'une fine couche de cuivre (environ 60μm). 
 Nous avons imprimé sur du papier calque la modélisation de notre PCB effectuée sur le logiciel *KICAD* pour ensuite insoler aux UV notre plaquette avec la silouhette par-dessus pendant quelques minutes. À l'aide d'un révelateur, nous avons retiré la partie de la résine non insolée.
 La plaquette d'expoxy est ensuite placée dans un bain de perchlorure de fer pour la gravure, opération durant 7 minutes. Le cuivre non protégé par la résine est ainsi retiré de la plaquette ce qui nous permet d'obtenir le PCB avec les pistes souhaitées.
 Enfin, de l'acétone est appliquée sur la plaquette pour éliminer les dernières traces de résine.
 
-### 5.2. Perçage et soudure <a id="CinquiemeSection2"></a> 
+### 6.2. Perçage et soudure <a id="SixiemeSection2"></a> 
 Nous avons ensuite percé notre PCB aux endroits où les différents composants seront insérés à l'aide d'une perceuse électrique. Le diamètre des trous dépend des différents composants à placer :
 * ⌀ 0.8mm : AOP LTC1050, résistances et capacités
 * ⌀ 1.0mm : Broches de connexion de la carte Arduino Uno et headers des différents modules (OLED, bluetooth, encodeur rotatoire)
@@ -114,19 +114,19 @@ Nous avons ensuite percé notre PCB aux endroits où les différents composants 
 
 Notre PCB ayant été imprimé en face avant, certains composants ont été placé en face avant et d'autres en face arrière pour faciliter la soudure et la connexion à la carte Arduino Uno.
 
-## 6. Simulation <a id="SixiemeSection"></a> 
+## 7. Simulation <a id="SeptiemeSection"></a> 
 Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice* afin de savoir le comportement que notre circuit aura une fois branché à de réelles valeurs de tension.
 
-## 7. Banc de test <a id="SeptiemeSection"></a> 
-### 7.1. Banc de test <a id="SeptiemeSection1"></a> 
+## 8. Banc de test <a id="HuigtiemeSection"></a> 
+### 8.1. Banc de test <a id="HuigtiemeSection1"></a> 
 
-### 7.2. Résultats obtenus <a id="SeptiemeSection2"></a> 
+### 8.2. Résultats obtenus <a id="SeptiemeSection2"></a> 
 
-### 7.3. Analyse des résultats et pistes d'améliorations <a id="SeptiemeSection3"></a> 
+### 8.3. Analyse des résultats et pistes d'améliorations <a id="HuigtiemeSection3"></a> 
 
-## 8. Datasheet <a id="HuigtiemeSection"></a> 
+## 9. Datasheet <a id="NeuviemeSection"></a> 
 
-## Contacts <a id="NeuviemeSection"></a> 
+## Contacts <a id="DixiemeSection"></a> 
 Pour toutes questions relatives aux différentes parties du projet, que ce soit du KiCad au code Arduino, n'hésitez pas à nous contacter !
 * Luca Paccard : paccard@insa-toulouse.fr
 * Arthur Lemaire : a_lemair@insa-toulouse.fr
