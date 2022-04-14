@@ -39,16 +39,13 @@ bool prev_switch_button = false;
 
 long angle_flat = 0;
 long angle_up = 0;
-long angle_down = 0;
-
-bool angle_panel_bool = false;
 
 int switch_counter = 0;
 
 long angle = 0;
 
-void switched() {
-  if ((millis() - TimeOfLastDebounceSwitch) > DelayofDebounceSwitch) {
+void switched() {   // set boolean value if switch button has been pushed or not
+  if ((millis() - TimeOfLastDebounceSwitch) > DelayofDebounceSwitch) {    // debouncing
     if (switch_button){
       switch_button = false;
     }
@@ -57,10 +54,9 @@ void switched() {
     }
   }
   TimeOfLastDebounceSwitch = millis();
-  // Serial.println(switch_button);
 }
 
-void main_panel() {
+void main_panel() {   // display on OLED panel
   ecranOLED.clearDisplay();
   ecranOLED.setCursor(0,1);
   if (switch_counter < 3){
@@ -152,13 +148,6 @@ void loop() {
   RS = (((1 + (R3/R2))*R1*(VCC/VADC)) - R1 - R5) * 0.000001; // Resistance in M ohm
   
   main_panel();
-
-  if (switch_button != prev_switch_button) {
-    switch_counter++;
-    Serial.print("SWITCH COUNT :    ");
-    Serial.println(switch_counter);
-    
-  }
 
   prev_switch_button = switch_button;
     
