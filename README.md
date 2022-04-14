@@ -120,6 +120,7 @@ Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice*
 ## 8. Banc de test <a id="HuigtiemeSection"></a> 
 ### 8.1. Banc de test <a id="HuigtiemeSection1"></a> 
 Nous avons testé notre capteur sur un banc de test que nous avons conçu à partir de fueilles de papier épais. Nous avons fabriqué 7 cylindres de diamètre variable, allant de 5cm à 2cm par pas de 0,5cm.
+<img src="/Images/Bench_test.png">
 
 ### 8.2. Résultats obtenus <a id="SeptiemeSection2"></a> 
 
