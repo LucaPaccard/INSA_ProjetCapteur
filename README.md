@@ -119,12 +119,17 @@ Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice*
 
 ## 8. Banc de test <a id="HuigtiemeSection"></a> 
 ### 8.1. Banc de test <a id="HuigtiemeSection1"></a> 
-Nous avons testé notre capteur sur un banc de test que nous avons conçu à partir de fueilles de papier épais. Nous avons fabriqué 7 cylindres de diamètre variable, allant de 5cm à 2cm par pas de 0,5cm.
 <img src="/Images/Bench_test.png">
+
+Nous avons testé notre capteur sur un banc de test que nous avons conçu à partir de feuilles de papier épais. Nous avons fabriqué 7 cylindres de diamètre variable, allant de 5cm à 2cm par pas de 0,5cm.
+En enrobant les différents cylindres avec notre capteur, nous appliquons une déformation maitrisée que nous pouvons calculer avec la formule : 
+*ε = e / (2•R)*, avec ε la déformation, e l'épaisseur de notre capteur, et R le rayon de courbure appliqué soit le rayon de nos cylindres.
+Nous avons décidé de réaliser des mesures de compression du capteur (et pas en tension), car bien que ces deux méthodes soient possibles, les valeurs de tension et donc de résistance renvoyées par notre capteur en compression n'étaient pas exploitables.
 
 ### 8.2. Résultats obtenus <a id="SeptiemeSection2"></a> 
 
 ### 8.3. Analyse des résultats et pistes d'améliorations <a id="HuigtiemeSection3"></a> 
+En comprimant notre capteur, les particules de graphite se rapprochent les unes des autres, ce qui facilite la conduction dans le réseau percolé du système. En appliquand une compression, nous créons de nouveaux chemins de percolation au sein du capteur. Les droites représentent les courbes de tendances des données de changement de résistance en fonction de la déformation.
 
 ## 9. Datasheet <a id="NeuviemeSection"></a> 
 
