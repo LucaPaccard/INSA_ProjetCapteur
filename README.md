@@ -133,11 +133,13 @@ En enrobant les différents cylindres avec notre capteur, nous appliquons une d�
 Nous avons décidé de réaliser des mesures de compression du capteur (et pas en tension), car bien que ces deux méthodes soient possibles, les valeurs de tension et donc de résistance renvoyées par notre capteur en compression n'étaient pas exploitables.
 
 ### 8.2. Résultats obtenus <a id="SeptiemeSection2"></a> 
+Les résultats complets de notre banc de test sont disponibles dans le dossier [Results](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Results). 
 
 ### 8.3. Analyse des résultats et pistes d'améliorations <a id="HuigtiemeSection3"></a> 
 En comprimant notre capteur, les particules de graphite se rapprochent les unes des autres, ce qui facilite la conduction dans le réseau percolé du système. En appliquand une compression, nous créons de nouveaux chemins de percolation au sein du capteur. Les droites représentent les courbes de tendances des données de changement de résistance en fonction de la déformation.
 
 ## 9. Datasheet <a id="NeuviemeSection"></a> 
+
 
 ## Contacts <a id="DixiemeSection"></a> 
 Pour toutes questions relatives aux différentes parties du projet, que ce soit du KiCad au code Arduino, n'hésitez pas à nous contacter !
