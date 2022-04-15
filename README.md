@@ -130,7 +130,8 @@ Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice*
 Nous avons testé notre capteur sur un banc de test que nous avons conçu à partir de feuilles de papier épais. Nous avons fabriqué 7 cylindres de diamètre variable, allant de 5cm à 2cm par pas de 0,5cm.
 En enrobant les différents cylindres avec notre capteur, nous appliquons une déformation maitrisée que nous pouvons calculer avec la formule : 
 *ε = e / (2•R)*, avec ε la déformation, e l'épaisseur de notre capteur, et R le rayon de courbure appliqué soit le rayon de nos cylindres.
-Nous avons décidé de réaliser des mesures de compression du capteur (et pas en tension), car bien que ces deux méthodes soient possibles, les valeurs de tension et donc de résistance renvoyées par notre capteur en compression n'étaient pas exploitables.
+
+Nous avons décidé de réaliser des mesures de compression (graphite vers le cylindre) du capteur et pas en tension (graphite vers l'extérieur), car bien que ces deux méthodes soient possibles, les valeurs de  résistance renvoyées par notre capteur en tension n'étaient pas exploitables.
 
 ### 8.2. Résultats obtenus <a id="SeptiemeSection2"></a> 
 Les résultats complets de notre banc de test sont disponibles dans le dossier [Results](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Results). 
