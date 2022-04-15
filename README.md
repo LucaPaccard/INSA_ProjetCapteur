@@ -57,13 +57,18 @@ Pour réaliser le capteur ainsi que le PCB associé, voici la liste des composan
 Nous avons utilisé différentes librairies dans notre code Arduino. La librarie ["Adafruit_SSD1306"](/Libraries/Adafruit_SSD1306) permet de contrôller l'écran OLED. La librairie [""Adafruit_BusIO"](/Libraries/Adafruit_busIO) permet de gérer la connexion en I2C et SPI.
 
 ### 3.2. Code Arduino <a id="TroisiemeSection2"></a>
-Le code Arduino, développé sous Arduino IDE contient plusieurs fonctionnalités. Il permet d'assurer la communication entre la carte Arduino, qui récupère la valeur de tension renvoyée par le capteur, et les différents éléments ajoutés sur le shield soit : l'écran OLED, le module bluetooth et l'encodeur rotatoire. Différents menus sont accessibles sur l'écran OLED :
+[Deux codes Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Arduino) ont été développés sous Arduino IDE pour profiter au mieux des fonctionnalités de notre capteur.
+
+#### Code Graphite_sensor
+Le [premier code](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/Arduino/Graphite_sensor/Graphite_sensor.ino) permet d'assurer la communication entre la carte Arduino, qui récupère la valeur de tension renvoyée par le capteur, et les différents éléments ajoutés sur le shield soit : l'écran OLED, le module bluetooth et l'encodeur rotatoire. Différents menus sont accessibles sur l'écran OLED :
 * Le premier menu permet un simple affichage de la résistance
 * Le deuxième menu permet de selectionner le calibre de la résistance affichée sur le menu 1. Cette dernière peut ainsi être affichée en Ω, kΩ ou MΩ.
 * Le troisème menu est un chronomètre permettant de savoir le temps d'execution du programme. C'est à dire le temps depuis le programme à été démarré.
 * Le quatrième menu permet l'affichage d'une image.
+En parallèle, le module bluetooth envoie les données de tension et de résistance à une application mobile qui sera détaillée dans la partie suivante.
 
-Les codes sont contenus dans les dossiers :
+#### Code Angle_calibration
+Le [second code](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/Arduino/Angle_calibration/Angle_calibration.ino) Arduino permet d'effectuer un calcul d'angle par rapport à la calibration du capteur. L'utilisateur rentre les valeurs de la résistance à plat et à la position la plus courbée possible en appuyant sur le bouton poussoir présent sur l'encodeur rotatoire. En considérant la variation de résistance linéaire, un produit en croix est ensuite fait pour asssocier une valeur de résistance à un angle de déformation.
 
 ## 4. Application Android <a id="QuatriemeSection"></a>
 
