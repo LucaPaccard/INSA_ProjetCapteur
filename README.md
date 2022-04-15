@@ -23,7 +23,7 @@ L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design*
   * [6.1. Réalisation du PCB](#SixiemeSection1)
   * [6.2. Perçage et soudure](#SixiemeSection2)
 * [7. Simulation](#SeptiemeSection)
-* [8. Banc de test](#HuigtiemeSection)
+* [8. Tests et résultats](#HuigtiemeSection)
   * [8.1. Banc de test](#HuigtiemeSection1)
   * [8.2. Résultats obtenus](#HuigtiemeSection2)
   * [8.3. Analyse des résultats et pistes d'améliorations](#HuigtiemeSection3)
@@ -123,7 +123,7 @@ Notre PCB ayant été imprimé en face avant, certains composants ont été plac
 ## 7. Simulation <a id="SeptiemeSection"></a> 
 Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice* afin de savoir le comportement que notre circuit aura une fois branché à de réelles valeurs de tension.
 
-## 8. Banc de test <a id="HuigtiemeSection"></a> 
+## 8. Tests et résultats <a id="HuigtiemeSection"></a> 
 ### 8.1. Banc de test <a id="HuigtiemeSection1"></a> 
 <img src="/Images/Bench_test.png">
 
