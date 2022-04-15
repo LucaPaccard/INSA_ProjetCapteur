@@ -65,6 +65,7 @@ Le [premier code](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemair
 * Le deuxième menu permet de selectionner le calibre de la résistance affichée sur le menu 1. Cette dernière peut ainsi être affichée en Ω, kΩ ou MΩ.
 * Le troisème menu est un chronomètre permettant de savoir le temps d'execution du programme. C'est à dire le temps depuis le programme à été démarré.
 * Le quatrième menu permet l'affichage d'une image.
+
 En parallèle, le module bluetooth envoie les données de tension et de résistance à une application mobile qui sera détaillée dans la partie suivante.
 
 #### Code Angle_calibration
