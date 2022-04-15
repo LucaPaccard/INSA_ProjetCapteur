@@ -54,7 +54,7 @@ Pour réaliser le capteur ainsi que le PCB associé, voici la liste des composan
 
 ## 3. Arduino <a id="TroisiemeSection"></a>
 ### 3.1. Librairies utilisées <a id="TroisiemeSection1"></a>
-Nous avons utilisé différentes librairies dans notre code Arduino. La librarie ["Adafruit_SSD1306"](/Libraries/Adafruit_SSD1306) permet de contrôller l'écran OLED. La librairie [""Adafruit_BusIO"](/Libraries/Adafruit_busIO) permet de gérer la connexion en I2C et SPI.
+Nous avons utilisé différentes librairies dans notre code Arduino. La librarie ["Adafruit_SSD1306"](/Libraries/Adafruit_SSD1306) permet de contrôller l'écran OLED. La librairie ["Adafruit_BusIO"](/Libraries/Adafruit_busIO) permet de gérer la connexion en I2C et SPI.
 
 ### 3.2. Code Arduino <a id="TroisiemeSection2"></a>
 [Deux codes Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Arduino) ont été développés sous Arduino IDE pour profiter au mieux des fonctionnalités de notre capteur.
