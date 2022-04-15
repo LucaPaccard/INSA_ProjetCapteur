@@ -14,7 +14,7 @@ L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design*
   * [3.1. Librairies utilisées](#TroisiemeSection1)
   * [3.2. Code Arduino](#TroisiemeSection1)
 * [4. Application Android](#QuatriemeSection)
-* [5. KICAD](#CinquiemeSection)
+* [5. KiCad](#CinquiemeSection)
   * [5.1. Symboles et empreintes des composants](#CinquiemeSection1)
   * [5.2. Schématique](#CinquiemeSection2)
   * [5.3. Placement des composants](#CinquiemeSection3)
@@ -38,7 +38,7 @@ Voici l'ensemble des livrables du projet :
 - Un **protocole de test** 
 - La **datasheet** du capteur de déformation
 
-Tout d'abord, nous avons réalisé un code Arduino permettant de vérifier notre montage contenant un amplificateur transimpédance, un écran OLED, un module bluetooth et un encodeur rotatoire. Une fois le montage fonctionnel, nous avons réalisé le design de notre shield sur le logiciel *KICAD*. Nous l'avons ensuite fabriqué et assemblé (lithographie, perçage, soudage des composants, etc.). En parallèle de cela, nous avons utilisé le logiciel *MIT App Inventor* afin de développer une application Android APK, capable de communiquer et recevoir les informations envoyées par le module bluetooth telles que les valeurs de résistance du capteur mesurées. Nous avons par la suite mis en place un banc de test pour pour caractériser les différents types de capteurs en fonction de leur déformation et de la mine de crayon utilisée (HB, B, 9B, etc.). Enfin, nous avons établi une datasheet à l'aide des résulats obtenus par le banc de test.
+Tout d'abord, nous avons réalisé un code Arduino permettant de vérifier notre montage contenant un amplificateur transimpédance, un écran OLED, un module bluetooth et un encodeur rotatoire. Une fois le montage fonctionnel, nous avons réalisé le design de notre shield sur le logiciel *KiCad*. Nous l'avons ensuite fabriqué et assemblé (lithographie, perçage, soudage des composants, etc.). En parallèle de cela, nous avons utilisé le logiciel *MIT App Inventor* afin de développer une application Android APK, capable de communiquer et recevoir les informations envoyées par le module bluetooth telles que les valeurs de résistance du capteur mesurées. Nous avons par la suite mis en place un banc de test pour pour caractériser les différents types de capteurs en fonction de leur déformation et de la mine de crayon utilisée (HB, B, 9B, etc.). Enfin, nous avons établi une datasheet à l'aide des résulats obtenus par le banc de test.
 
 ## 2. Matériel nécessaire
 Pour réaliser le capteur ainsi que le PCB associé, voici la liste des composants nécessaires :
@@ -73,7 +73,7 @@ Le [second code](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire
 
 ## 4. Application Android <a id="QuatriemeSection"></a>
 
-## 5. KICAD <a id="CinquiemeSection"></a>
+## 5. KiCad <a id="CinquiemeSection"></a>
 ### 5.1. Symboles et empreintes des composants <a id="CinquiemeSection1"></a>
 * Amplificateur LTC1050
 
