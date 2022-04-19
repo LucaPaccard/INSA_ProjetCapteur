@@ -137,7 +137,12 @@ Nous avons décidé de réaliser des mesures de compression (graphite vers le cy
 Les résultats complets de notre banc de test sont disponibles dans le dossier [Results](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Results). 
 
 ### 8.3. Analyse des résultats et pistes d'améliorations <a id="HuigtiemeSection3"></a> 
-En comprimant notre capteur, les particules de graphite se rapprochent les unes des autres, ce qui facilite la conduction dans le réseau percolé du système. En appliquand une compression, nous créons de nouveaux chemins de percolation au sein du capteur. Les droites représentent les courbes de tendances des données de changement de résistance en fonction de la déformation.
+En comprimant notre capteur, les particules de graphite se rapprochent les unes des autres, ce qui facilite la conduction dans le réseau percolé du système. De la même manière, en mettant notre capteur en tension, certains chemins de percolation se retrouvent brisés ce qui augmente la résistance du capteur.
+En fonction du type de crayon utilisé, les variations relatives de résistance changent. En effet, plus le crayon est gras, c'est à dire qu'il dépose plus de graphite, moins sa variation relative de résistance est élevée. Cette caractéristique se vérifie sur nos [résultats](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Results) et dans notre [datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/datasheet.pdf).
+Certains point peuvent être améliorés dans notre projet :
+* Le dépot de graphite sur le capteur est difficile à maîtriser et il est ainsi difficile de fabriquer plusieurs capteurs identiques
+* Notre banc de test fourni des résultats répétables, il pourrait cependant être envisageable de fabriquer ce même banc de test en impression 3D pour augmenter sa résistance et longévitée.
+* Sur notre PCB, l'ajout d'un potentiomètre digital permettrait de pouvoir travailler sur une gamme de résistance plus grande car ce dernier modulera la valeur de tension de sortie en fonction de la résistance du capteur
 
 ## 9. Datasheet <a id="NeuviemeSection"></a> 
 La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/datasheet.pdf)
