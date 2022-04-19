@@ -140,7 +140,7 @@ Les résultats complets de notre banc de test sont disponibles dans le dossier [
 En comprimant notre capteur, les particules de graphite se rapprochent les unes des autres, ce qui facilite la conduction dans le réseau percolé du système. En appliquand une compression, nous créons de nouveaux chemins de percolation au sein du capteur. Les droites représentent les courbes de tendances des données de changement de résistance en fonction de la déformation.
 
 ## 9. Datasheet <a id="NeuviemeSection"></a> 
-
+La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/datasheet.pdf)
 
 ## Contacts <a id="DixiemeSection"></a> 
 Pour toutes questions relatives aux différentes parties du projet, que ce soit du KiCad au code Arduino, n'hésitez pas à nous contacter !
