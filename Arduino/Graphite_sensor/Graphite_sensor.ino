@@ -278,6 +278,9 @@ void calibre_panel() {    // allows to select a calibre for resistance value
 
 void setup() {
   Serial.begin(9600);
+  BTserial.begin(9600);
+  
+  pinMode(A0, INPUT); // pin pour entrée analogique, mesure de tension VADC
 
   ecranOLED.begin(SSD1306_SWITCHCAPVCC, adresseI2CecranOLED);
   ecranOLED.clearDisplay();                 // Effaçage de l'intégralité du buffer
@@ -311,7 +314,10 @@ void loop() {
   main_panel();
   
   myTime = millis() / 1000;            
-
+  
   prev_switch_button = switch_button;
+  
+  byte VADC1 = map(analogRead(analogPin), 0, 1024, 0, 255); //Encodage de la tension VADC sur un byte
+  BTserial.write(VADC1); // Envoie de la donnée de tension sur un byte
   delay(100);
 }
