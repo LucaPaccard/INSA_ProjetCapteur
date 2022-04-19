@@ -14,7 +14,7 @@
 #define pinDT 4
 #define MENU_SIZE 4
   
-SoftwareSerial mySerial(rxPin, txPin);      // Définition du software serial
+SoftwareSerial BTserial(rxPin, txPin);      // Définition du software serial
 
 Adafruit_SSD1306 ecranOLED(nombreDePixelsEnLargeur, nombreDePixelsEnHauteur, &Wire, brocheResetOLED);
 
@@ -61,7 +61,6 @@ float calibre = 1.0;
 
 // 'Logo_Grand_Potentiel', 128x64px
 const unsigned char myBitmap [] PROGMEM = {
-  
   0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x07, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x07, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x07, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -243,7 +242,7 @@ void main_panel() {  // displays everything on the OLED
     
     else if (count1 == 3) {   // image sub-menu
       ecranOLED.clearDisplay();
-      ecranOLED.drawBitmap(0, 0, myBitmap, 128, 32, WHITE); // display.drawBitmap(x position, y position, bitmap data, bitmap width, bitmap height, color)
+      ecranOLED.drawBitmap(0, 0, myBitmap, 128, 64, WHITE); // display.drawBitmap(x position, y position, bitmap data, bitmap width, bitmap height, color)
     }
   }
 
