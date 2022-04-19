@@ -3,7 +3,7 @@ Ce projet s'inscrit dans l'UF **"Du capteur au banc de test"** en 4ème année a
 ***
 L'objectif de ce dernier est d'élaborer un **capteur de déformation** low-tech à base de graphite. L'application d'une contrainte mécanique sur un capteur en papier sur lequel un dépôt de crayon à papier à été fait, modifie la distance entre les particules de graphite. La conductivité électrique de la couche de graphite est elle aussi modifiée et celà induit une variation de la résistance. C'est cette donnée qui va nous intéresser.
 
-<img src="/Images/Capteur.png" alt="centered image">
+<p align="center"><img src="/Images/Capteur.png">
 
 L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design** jusqu'à la **réalisation** en passant par le **codage** seront détaillées dans ce dossier.
 
@@ -95,15 +95,15 @@ Nous avons réalisé une [application Android](https://github.com/MOSH-Insa-Toul
 
 
 ### 5.2. Schématique <a id="CinquiemeSection2"></a>
-<img src="/Images/Schematic.png" class="center">
+<p align="center"><img src="/Images/Schematic.png">
 
 Une fois les empreintes créées, nous avons réalisé le schéma de notre shield. En haut à droite sont représentées les broches de la carte Arduino. En haut au milieu est représenté l'amplificateur transimpédance et en bas du schématique se trouvent l'écran OLED, le module bluetooth et l'encodeur rotatoire.
 
 ### 5.3. Placement des composants <a id="CinquiemeSection3"></a>
-<img src="/Images/PCB_2D.png" class="center">
+<p align="center"><img src="/Images/PCB_2D.png">
 
 ### 5.4. Visualisation 3D <a id="CinquiemeSection4"></a>
-<img src="/Images/PCB_3D.png" class="center">
+<p align="center"><img src="/Images/PCB_3D.png">
 
 ## 6. Fabrication du shield <a id="SixiemeSection"></a>
 <img src="/Images/PCB_front.png" height="300"> <img src="/Images/PCB_back.png" height="300">
@@ -127,7 +127,7 @@ Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice*
 
 ## 8. Tests et résultats <a id="HuigtiemeSection"></a> 
 ### 8.1. Banc de test <a id="HuigtiemeSection1"></a> 
-<img src="/Images/Bench_test.png" class="center">
+<p align="center"><img src="/Images/Bench_test.png">
 
 Nous avons testé notre capteur sur un banc de test que nous avons conçu à partir de feuilles de papier épais. Nous avons fabriqué 7 cylindres de diamètre variable, allant de 5cm à 2cm par pas de 0,5cm.
 En enrobant les différents cylindres avec notre capteur, nous appliquons une déformation maitrisée que nous pouvons calculer avec la formule : 
