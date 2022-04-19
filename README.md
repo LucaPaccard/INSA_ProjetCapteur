@@ -8,11 +8,11 @@ L'objectif de ce dernier est d'élaborer un **capteur de déformation** low-tech
 L'ensemble des étapes menées pour réaliser ce capteur, en allant du **design** jusqu'à la **réalisation** en passant par le **codage** seront détaillées dans ce dossier.
 
 ## Sommaire
-* [1. Description du projet et détail des livrables](#PremiereSection)
-* [2. Matériel nécessaire](#DeuxiemeSection)
-* [3. Arduino](#TroisiemeSection)
-  * [3.1. Librairies utilisées](#TroisiemeSection1)
-  * [3.2. Code Arduino](#TroisiemeSection1)
+[1. Description du projet et détail des livrables](#PremiereSection)
+[2. Matériel nécessaire](#DeuxiemeSection)
+[3. Arduino](#TroisiemeSection)
+  [3.1. Librairies utilisées](#TroisiemeSection1)
+  [3.2. Code Arduino](#TroisiemeSection1)
 * [4. Application Android](#QuatriemeSection)
 * [5. KiCad](#CinquiemeSection)
   * [5.1. Symboles et empreintes des composants](#CinquiemeSection1)
