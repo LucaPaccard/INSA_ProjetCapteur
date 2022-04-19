@@ -123,7 +123,7 @@ Nous avons ensuite percé notre PCB aux endroits où les différents composants 
 Notre PCB ayant été imprimé en face avant, certains composants ont été placé en face avant et d'autres en face arrière pour faciliter la soudure et la connexion à la carte Arduino Uno.
 
 ## 7. Simulation <a id="SeptiemeSection"></a> 
-Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice* afin de savoir le comportement que notre circuit aura une fois branché à de réelles valeurs de tension.
+Nous avons simulé notre amplificateur transimpédance sur le logiciel *LTSpice* afin de savoir le comportement que notre circuit aura une fois branché à de réelles valeurs de tension. Les différentes simulations réalisées sur le logiciel nous ont permis d'une part de vérifier le bon fonctionnement du circuit et de chacun des composants intégrés, et d'autre part de comprendre l'utilité de chacun. Le détail de la démarche suivie et des résultats obtenus est disponible dans le document "Simulation_LTspice" disponible dans ce repository.
 
 ## 8. Tests et résultats <a id="HuigtiemeSection"></a> 
 ### 8.1. Banc de test <a id="HuigtiemeSection1"></a> 
