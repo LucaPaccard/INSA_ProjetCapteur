@@ -147,7 +147,7 @@ Certains point peuvent être améliorés dans notre projet :
 * Sur notre PCB, l'ajout d'un potentiomètre digital permettrait de pouvoir travailler sur une gamme de résistance plus grande car ce dernier modulera la valeur de tension de sortie en fonction de la résistance du capteur
 
 ## 9. Datasheet <a id="NeuviemeSection"></a> 
-La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/datasheet.pdf)
+La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/datasheet.pdf).
 
 ## Contacts <a id="DixiemeSection"></a> 
 Pour toutes questions relatives aux différentes parties du projet, que ce soit du KiCad au code Arduino, n'hésitez pas à nous contacter !
