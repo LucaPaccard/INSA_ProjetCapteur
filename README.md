@@ -73,6 +73,8 @@ Le [second code](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire
 
 ## 4. Application Android <a id="QuatriemeSection"></a>
 
+Nous avons réalisé une application Android grâce au site MIT App Inventor afin d'instaurer une communication entre notre module bluetooth HC-05 et un smartphone Android. Cette application possède différentes fonctionnalités : après avoir choisi dans un menu l'appareil auquel on souhaite se connecter, et que la connexion a été effectuée, différentes informations sont affichées sur l'écran du téléphone. En premier, on trouve la tension VADC en volts de sortie du circuit, elle est envoyée sous forme d'un byte à l'application depuis la carte Arduino, puis elle est reconvertie dans le code de l'application en float permettant d'afficher les décimales. C'est ensuite la valeur de la résistance du capteur en graphite qui est affichée en Méga Ohms, la valeur est directement calculée depuis l'application à partir de la valeur de VADC reconvertie en float. Finalement, la variation de la valeur de résistance est tracée en fonction du temps dans un graphique (canva) au-dessous. Nous avons enregistré un graphique avec uniquement des axes et leurs titres sous forme d'image que nous avons ensuite mis en fond du graphique pour le tracé. 
+
 ## 5. KiCad <a id="CinquiemeSection"></a>
 ### 5.1. Symboles et empreintes des composants <a id="CinquiemeSection1"></a>
 * Amplificateur LTC1050
