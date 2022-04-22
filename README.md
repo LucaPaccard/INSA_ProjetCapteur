@@ -143,10 +143,12 @@ En comprimant notre capteur, les particules de graphite se rapprochent les unes 
 En fonction du type de crayon utilisé, les variations relatives de résistance changent. En effet, plus le crayon est gras, c'est à dire qu'il dépose plus de graphite, moins sa variation relative de résistance est élevée. Cette caractéristique se vérifie sur nos [résultats](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Results) et dans notre [datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/datasheet.pdf).
  
 #### Comparaison avec le Flex-Sensor SEN-10264
- 
-Nous avons étudié la réponse en résistance du flex-sensor SEN-10264 pour le comparer à nos capteurs low-tech à base de graphite.
- 
 
+ <p align="center"><img src="/Results/Tension_Pencils_vs_FlexSensor.png" width="600">  
+ <p align="center"><img src="/Results/Compression_Pencils_vs_FlexSensor.png" width="600">
+ 
+Nous avons étudié la réponse en résistance du flex-sensor SEN-10264 pour le comparer à nos capteurs low-tech à base de graphite. Nous avons observé que le flex-sensor industriel est plus sensible à la déformation (i.e. ΔR/R0 augmente plus rapidement avec la déformation) que nos capteurs de graphite lorsque l'on applique une déformation en tension. Cependant, en compression, le flex-sensor SEN-10264 possède une sensibilité du même ordre de grandeur que nos différents capteurs.
+ 
 #### Pistes d'améliorations 
 Certains point peuvent être améliorés dans notre projet :
 * Le dépot de graphite sur le capteur est difficile à maîtriser et il est ainsi difficile de fabriquer plusieurs capteurs identiques
