@@ -141,6 +141,13 @@ Les résultats complets de notre banc de test sont disponibles dans le dossier [
 ### 8.3. Analyse des résultats et pistes d'améliorations <a id="HuigtiemeSection3"></a> 
 En comprimant notre capteur, les particules de graphite se rapprochent les unes des autres, ce qui facilite la conduction dans le réseau percolé du système. De la même manière, en mettant notre capteur en tension, certains chemins de percolation se retrouvent brisés ce qui augmente la résistance du capteur.
 En fonction du type de crayon utilisé, les variations relatives de résistance changent. En effet, plus le crayon est gras, c'est à dire qu'il dépose plus de graphite, moins sa variation relative de résistance est élevée. Cette caractéristique se vérifie sur nos [résultats](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/tree/main/Results) et dans notre [datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022_Paccard_Lemaire_Projet_Capteur/blob/main/datasheet.pdf).
+ 
+#### Comparaison avec le Flex-Sensor SEN-10264
+ 
+Nous avons étudié la réponse en résistance du flex-sensor SEN-10264 pour le comparer à nos capteurs low-tech à base de graphite.
+ 
+
+#### Pistes d'améliorations 
 Certains point peuvent être améliorés dans notre projet :
 * Le dépot de graphite sur le capteur est difficile à maîtriser et il est ainsi difficile de fabriquer plusieurs capteurs identiques
 * Notre banc de test fourni des résultats répétables, il pourrait cependant être envisageable de fabriquer ce même banc de test en impression 3D pour augmenter sa résistance et longévitée.
